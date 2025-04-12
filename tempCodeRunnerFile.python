@@ -1,0 +1,12 @@
+#sum of natural numbers
+
+def sum(n):
+    if n == 0 :
+        return 0
+    else :
+        return (n*(n+1))/1
+    
+n = int(input("Enter n "))  
+
+sum = sum(n)   
+print("Sum of natural number is : ",sum)
